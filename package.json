@@ -1,0 +1,30 @@
+{
+  "name": "vanilla-render-function",
+  "version": "0.0.11",
+  "description": "",
+  "main": "./index.js",
+  "module": "./esm/index.js",
+  "unpkg": "./unpkg/vanilla-render-function.min.js",
+  "types": "./index.d.ts",
+  "scripts": {
+    "build": "node build.js && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Igor4505/render-function.git"
+  },
+  "keywords": [],
+  "author": "Igor Dantas <=>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Igor4505/render-function/issues"
+  },
+  "homepage": "https://github.com/Igor4505/render-function#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.3.1",
+    "@typescript-eslint/parser": "^5.3.1",
+    "esbuild": "^0.13.13",
+    "eslint": "^8.2.0",
+    "typescript": "^3.9.7"
+  }
+}
