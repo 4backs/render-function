@@ -1,7 +1,5 @@
-const attachCSS = (sheet: HTMLStyleElement, options?: { customWindow:  Window }) => {
-    const domDocument = options?.customWindow.document || document;
-
-    const head = domDocument.querySelector('head')!;
+const attachCSS = (sheet: HTMLStyleElement) => {
+    const head = document.querySelector('head')!;
     head.appendChild(sheet);
 };
 

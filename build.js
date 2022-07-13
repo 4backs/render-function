@@ -21,7 +21,7 @@ const build = async () => {
         sourcemap: false,
         outdir: '/dist/esm',
         format: 'esm',
-        target: ['esnext'],
+        target: ['es2020'],
     });
 
     // Buildar para browser
@@ -31,7 +31,7 @@ const build = async () => {
         minify: true,
         sourcemap: false,
         outfile: '/dist/unpkg/vanilla-render-function.min.js',
-        target: ['esnext']
+        target: ['es2020']
     });
 
     copyFile('package.json', './dist/package.json');

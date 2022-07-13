@@ -1,6 +1,6 @@
 {
-  "name": "vanilla-render-function",
-  "version": "0.0.11",
+  "name": "@4backs/render-function",
+  "version": "0.0.2",
   "description": "",
   "main": "./index.js",
   "module": "./esm/index.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Igor4505/render-function.git"
+    "url": "https://github.com/4backs/render-function"
   },
   "keywords": [],
   "author": "Igor Dantas <=>",
