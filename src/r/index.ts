@@ -5,7 +5,7 @@ export interface RenderArgs {
     attributes?: { [key: string]: string },
     style?: Partial<CSSStyleDeclaration>,
     children?: HTMLElement[] | string,
-    onClick?: () => void
+    onClick?: (e: MouseEvent) => void
 }
 
 

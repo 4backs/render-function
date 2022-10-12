@@ -1,6 +1,6 @@
 {
   "name": "@4backs/render-function",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "main": "./index.js",
   "module": "./esm/index.js",
