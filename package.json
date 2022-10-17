@@ -1,10 +1,10 @@
 {
   "name": "@4backs/render-function",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "",
-  "main": "./index.js",
-  "module": "./esm/index.js",
-  "unpkg": "./unpkg/vanilla-render-function.min.js",
+  "main": "./vanilla-render-function.cjs.js",
+  "module": "./vanilla-render-function.esm.js",
+  "unpkg": "./vanilla-render-function.min.js",
   "types": "./index.d.ts",
   "scripts": {
     "build": "node build.js && tsc"

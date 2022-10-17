@@ -4,22 +4,22 @@ const build = async () => {
 
     // Buildar para node
     require('esbuild').buildSync({
-        entryPoints: ['./src/index.ts', './src/attachCSS/index.ts', './src/generateCSS/index.ts', './src/r/index.ts'],
+        entryPoints: ['./src/index.ts'],
         bundle: true,
         minify: false,
         sourcemap: false,
-        outdir: '/dist',
+        outfile: '/dist/vanilla-render-function.cjs.js',
         platform: 'node',
         target: ['node10.4'],
     });
 
     // Buildar ECMAScript Module
     require('esbuild').buildSync({
-        entryPoints: ['./src/index.ts', './src/attachCSS/index.ts', './src/generateCSS/index.ts', './src/r/index.ts'],
+        entryPoints: ['./src/index.ts'],
         bundle: true,
         minify: false,
         sourcemap: false,
-        outdir: '/dist/esm',
+        outfile: '/dist/vanilla-render-function.esm.js',
         format: 'esm',
         target: ['es2020'],
     });
@@ -30,7 +30,7 @@ const build = async () => {
         bundle: true,
         minify: true,
         sourcemap: false,
-        outfile: '/dist/unpkg/vanilla-render-function.min.js',
+        outfile: '/dist/vanilla-render-function.min.js',
         target: ['es2020']
     });
 
